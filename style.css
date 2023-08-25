@@ -1,0 +1,169 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: sans-serif;
+    line-height: 1.5;
+    background: #1F2937;
+}
+h1,h2{
+    margin-bottom: 15px;
+}
+
+ul{
+    list-style-type: none;
+}
+.container{
+    max-width: 1600px;
+    margin: 0,auto;
+    padding:0,30px;
+
+}
+.header{
+    background: #1F2937;
+    color:#F9FAF8;
+    font-size: 24px;
+    height: 150px;
+    padding:20px; 
+}
+.logo ul li a{ 
+    font-size: 24px;
+    color:#F9FAF8;
+}
+.container h1{
+    color:#F9FAF8;
+    font-size: 48px;
+    line-height: 1.2;
+    font-weight: bolder;
+}
+
+.container p{
+    color:#F9FAF8;
+    font-size: 18px;
+}
+
+.container button{
+/*background-color: #3882F6;*/
+background-color: #228b22;
+margin:5px;
+padding:10px;
+color:#F9FAF8;
+font-weight : bold;
+border-style: solid;
+}
+
+.navbar .a{
+    text-decoration: none;
+    color:#fff;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.header ul{
+    display: flex;
+    padding:10px;
+    margin:10px;
+}
+
+.header ul li{
+    margin:10px;
+}
+
+.logo img{
+    width:100px;
+    height: auto;
+}
+.header .logo{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container img{
+    max-width: 500px;
+}
+
+.head .container{
+    display: flex;
+    padding:20px; 
+    justify-content: space-around;
+    margin:30px;
+}
+
+.boxes {
+    background-color: #fff;
+}
+
+.boxes .heading{
+    color:#1F2937;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    padding:20px; 
+    justify-content: center;
+}
+
+.box img{
+    width:300px;
+    height: 300px;
+    margin:20px;
+}
+
+.boxcontainer{
+    display:flex;
+    justify-content: center;
+}
+
+.boxes .heading h2{
+    align-items: center;
+}
+.paragraph{
+    display:flex;
+    justify-content: center;
+}
+
+.paragraph p{
+    color:#1F2937; 
+    width:300px;
+    height: 300px;
+    margin:20px;
+}
+
+.quotes{
+    background-color: #E5E7EB;
+    color:#1F2937;
+    font-size: 18px;
+    text-align: center;
+    height: 300px;
+    margin: auto;
+    padding: 145px;
+}
+
+.footer{
+    background-color: #fff;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    line-height: 1.4;
+}
+
+
+.footer .footertop{
+    background-color: #228b22;
+    width: 1300px;
+    height: 125px;
+    margin:20px;
+    padding:40px;
+    display:flex;
+    justify-content: space-around;
+}
+
+.footertop button{
+    background-color: #228b22;
+    border-color: #fff;
+    border-style: solid;
+    padding:10px;
+    font-weight : bold
+}
